@@ -3,5 +3,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "mob-playingcard"
+    name: "mob-playingcard",
+    dependencies: [
+    .Package(url: "https://github.com/onevcat/Rainbow", majorVersion: 2)
+    ]
 )
